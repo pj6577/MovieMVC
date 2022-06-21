@@ -46,5 +46,9 @@ public class MovieViewer {
     }
    private void showStar() {
         ArrayList<MovieDTO> movieStar = MovieController.selectAll();
+        
+        if(MovieStar.isEmpty()) {
+            
+        }
     }
 }
